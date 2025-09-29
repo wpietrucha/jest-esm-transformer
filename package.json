@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ActuallyACat/jest-esm-transformer.git"
+    "url": "git+https://github.com/wpietrucha/jest-esm-transformer.git"
   },
   "author": "ally beaton <info@allybeaton.com>",
   "license": "ISC",
