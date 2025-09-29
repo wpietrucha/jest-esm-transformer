@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ActuallyACat/jest-esm-transformer#readme",
   "dependencies": {
     "@babel/core": "^7.4.4",
-    "@babel/plugin-transform-modules-commonjs": "^7.4.4"
+    "@babel/plugin-transform-modules-commonjs": "^7.4.4",
+    "@babel/plugin-transform-class-static-block": "^7.28.3"
   }
 }

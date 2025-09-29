@@ -5,10 +5,13 @@ module.exports = {
     const options = {
       babelrc: false,
       compact: false,
-      plugins: [require.resolve("@babel/plugin-transform-modules-commonjs")],
+      plugins: [
+          require.resolve("@babel/plugin-transform-modules-commonjs"),
+          require.resolve("@babel/plugin-transform-class-static-block")
+      ],
       // Ensures that babel respects original source maps. This allows to use
       // already transpiled JavaScript source code and enables correct stack
-      // traces when tests fail. 
+      // traces when tests fail.
       inputSourceMap: true,
 
       // To make sure filenames are accurate
